@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify Clone</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="logo">Spotify</div>
+      <div class="library">
+        <button class="btn">Create playlist</button>
+        <button class="btn">Browse podcasts</button>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="top-bar">
+        <input type="text" placeholder="What do you want to play?" class="search" />
+        <button class="login">Log in</button>
+      </header>
+
+      <section class="trending">
+        <h2>Trending songs</h2>
+        <div class="cards">
+          <div class="card">
+            <img src="assets/img1.jpg" alt="Minnalvala">
+            <p>Minnalvala</p>
+          </div>
+          <div class="card">
+            <img src="assets/img2.jpg" alt="Shaky">
+            <p>Shaky</p>
+          </div>
+        
+<div class="card">
+  <img src="assets/img3.jpg" alt="Kalank Title Track">
+  <p>Kalank Title Track</p>
+</div>
+<div class="card">
+  <img src="assets/img2.jpg" alt="Tum Hi Ho">
+  <p>Tum Hi Ho</p>
+</div>
+<div class="card">
+  <img src="assets/img1.jpg" alt="Apna Bana Le">
+  <p>Apna Bana Le</p>
+</div>
+
+      </div>
+      </section>
+
+      <section class="popular-artists">
+        <h2>Popular artists</h2>
+        <div class="artists">
+          <div class="artist"><img src="assets/img4.jpg" alt="Artist 1" /></div>
+          <div class="artist"><img src="assets/img5.jpg" alt="Artist 2" /></div>
+        
+<div class="card">
+  <img src="assets/img3.jpg" alt="Kalank Title Track">
+  <p>Kalank Title Track</p>
+</div>
+<div class="card">
+  <img src="assets/img2.jpg" alt="Tum Hi Ho">
+  <p>Tum Hi Ho</p>
+</div>
+<div class="card">
+  <img src="assets/img1.jpg" alt="Apna Bana Le">
+  <p>Apna Bana Le</p>
+</div>
+
+      </div>
+      </section>
+    </main>
+  </div>
+  <footer class="player">
+  <audio id="audioPlayer" src="assets/sample1.mp3"></audio>
+
+  <div class="controls">
+    <button onclick="prevSong()">⏮</button>
+    <button onclick="togglePlay()">▶️</button>
+    <button onclick="nextSong()">⏭</button>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
